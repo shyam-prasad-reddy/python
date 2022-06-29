@@ -1,0 +1,18 @@
+devices:
+  cisco_ios:
+    - ip_address:
+        - IOU1
+        - IOU3
+        - IOU4
+      commands:
+        - show ip interface brief
+    
+    - ip_address:
+        - IOU2
+      commands:
+        - show ip interface brief
+  arista_eos:
+    - ip_address:
+        - ARISTA-1
+      commands:
+        - show ip interface brief
